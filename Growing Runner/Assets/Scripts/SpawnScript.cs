@@ -7,8 +7,8 @@ public class SpawnScript : MonoBehaviour {
 	public GameObject[] obj;
 
 	// how fast to spawnt the objects?
-	public float spawnMin = 1f;
-	public float spawnMax = 2f;
+	public float spawnMin;
+	public float spawnMax;
 
 	// Use this for initialization
 	void Start () {
