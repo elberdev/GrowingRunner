@@ -47,6 +47,8 @@ public class CheshireControllerScript : MonoBehaviour {
 			anim.SetBool("Ground", false);
 			GetComponent<Rigidbody2D>().AddForce(new Vector3(0, jumpForce, 0));
 
+			grounded = false;
+
 		}
 	}
 
