@@ -23,6 +23,28 @@ namespace UnitySampleAssets.CrossPlatformInput
 	}
 	#endif
 
+<<<<<<< 04cf293f1ee380e5a1156c891b758d9b9ae2809f
+=======
+        private void Start()
+        {
+#if UNITY_EDITOR
+            if (Application.isPlaying) //if in the editor, need to check if we are playing, as start is also called just after exiting play
+#endif
+            {
+                UnityEngine.EventSystems.EventSystem system = GameObject.FindObjectOfType<UnityEngine.EventSystems.EventSystem>();
+
+                if (system == null)
+                {//the scene have no event system, spawn one
+                    GameObject o = new GameObject("EventSystem");
+
+                    o.AddComponent<UnityEngine.EventSystems.EventSystem>();
+                    o.AddComponent<UnityEngine.EventSystems.StandaloneInputModule>();
+                    o.AddComponent<UnityEngine.EventSystems.TouchInputModule>();
+                }
+            }
+        }
+
+>>>>>>> growth and shrink scripts
 #if UNITY_EDITOR
 
         private void OnEnable()

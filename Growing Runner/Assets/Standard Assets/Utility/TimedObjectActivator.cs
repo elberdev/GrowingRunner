@@ -1,7 +1,15 @@
+<<<<<<< 04cf293f1ee380e5a1156c891b758d9b9ae2809f
 ﻿using UnityEngine;
 using System.Collections;
 #if UNITY_EDITOR
 using UnityEditor;
+=======
+using System;
+using System.Collections;
+using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+>>>>>>> growth and shrink scripts
 #endif
 
 namespace UnitySampleAssets.Utility
@@ -76,7 +84,10 @@ namespace UnitySampleAssets.Utility
         {
             yield return new WaitForSeconds(entry.delay);
             Application.LoadLevel(Application.loadedLevel);
+<<<<<<< 04cf293f1ee380e5a1156c891b758d9b9ae2809f
 
+=======
+>>>>>>> growth and shrink scripts
         }
     }
 }
