@@ -112,6 +112,16 @@ namespace UnitySampleAssets._2D
             }
         }
 
+		void Update ()
+		{
+			if(grounded && Input.GetKeyDown(KeyCode.Space))
+			{
+				anim.SetBool("Ground", false);
+				GetComponent<Rigidbody2D>().AddForce(new Vector3(0, jumpForce, 0));
+
+			}
+		}
+
 
         private void Flip()
         {
