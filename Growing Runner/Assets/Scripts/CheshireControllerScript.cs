@@ -45,7 +45,7 @@ public class CheshireControllerScript : MonoBehaviour {
 		if(grounded && Input.GetKeyDown(KeyCode.Space))
 		{
 			anim.SetBool("Ground", false);
-			GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+			GetComponent<Rigidbody2D>().AddForce(new Vector3(0, jumpForce, 0));
 
 		}
 	}
