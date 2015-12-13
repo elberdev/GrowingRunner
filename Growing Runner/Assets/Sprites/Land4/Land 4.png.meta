@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: e076a6963308742d093423183219d159
+timeCreated: 1450050473
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Land 4_0
+    21300002: Land 4_1
+    21300004: Land 4_2
+    21300006: Land 4_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Land 4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 387, y: -61}
+        - {x: 373, y: -69}
+        - {x: 368, y: -59}
+        - {x: 400, y: -58}
+        - {x: 400, y: 5}
+        - {x: 395, y: 12}
+        - {x: 0, y: 12}
+        - {x: 0, y: -24}
+        - {x: 77, y: -100}
+        - {x: 367, y: -100}
+        - {x: 381, y: -94}
+        - {x: 399, y: -72}
+        - {x: 400, y: -71}
+        - {x: 400, y: -59}
+    - name: Land 4_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 373, y: -69}
+        - {x: 368, y: -59}
+        - {x: 400, y: -58}
+        - {x: 400, y: 5}
+        - {x: 395, y: 12}
+        - {x: 0, y: 12}
+        - {x: 0, y: -48}
+        - {x: 129, y: -100}
+        - {x: 385, y: -100}
+        - {x: 400, y: -71}
+        - {x: 400, y: -59}
+        - {x: 387, y: -61}
+    - name: Land 4_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 400
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 387, y: -61}
+        - {x: 373, y: -69}
+        - {x: 368, y: -59}
+        - {x: 400, y: -58}
+        - {x: 400, y: 4}
+        - {x: 391, y: 12}
+        - {x: 3, y: 12}
+        - {x: 0, y: 10}
+        - {x: 0, y: -21}
+        - {x: 106, y: -100}
+        - {x: 357, y: -100}
+        - {x: 381, y: -94}
+        - {x: 399, y: -72}
+        - {x: 400, y: -71}
+        - {x: 400, y: -59}
+    - name: Land 4_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 400
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 373, y: -69}
+        - {x: 368, y: -59}
+        - {x: 400, y: -58}
+        - {x: 400, y: 5}
+        - {x: 395, y: 12}
+        - {x: 0, y: 12}
+        - {x: 0, y: -48}
+        - {x: 129, y: -100}
+        - {x: 385, y: -100}
+        - {x: 400, y: -71}
+        - {x: 400, y: -59}
+        - {x: 387, y: -61}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
