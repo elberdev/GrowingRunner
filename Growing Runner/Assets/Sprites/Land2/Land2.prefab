@@ -26,7 +26,7 @@ GameObject:
   - 212: {fileID: 21237776}
   - 95: {fileID: 9505120}
   - 60: {fileID: 6042992}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Land 2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 118256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7904613, y: -2.0364156, z: 0}
+  m_LocalPosition: {x: -9.017979, y: -2.274687, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 474262}
@@ -66,7 +66,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 167456}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
@@ -111,21 +111,21 @@ PolygonCollider2D:
       - {x: 1.4974507, y: 0.44529736}
       - {x: 1.2729456, y: 0.29294616}
       - {x: 1.052748, y: 0.23039655}
-      - {x: 0.9080452, y: 0.2201982}
-      - {x: 0.64373904, y: 0.1970539}
-      - {x: 0.20472997, y: 0.16900872}
-      - {x: 0.48999998, y: 0.08}
+      - {x: 0.9031224, y: 0.1266691}
+      - {x: 0.6338937, y: -0.009694651}
+      - {x: 0.20473003, y: 0.04102151}
+      - {x: 0.51953554, y: -0.00368388}
       - {x: 0.22529739, y: 0.08980183}
       - {x: 0.22, y: 0.08}
-      - {x: 0.21841401, y: 0.16940527}
-      - {x: -0.11963105, y: 0.16235135}
-      - {x: -0.12336993, y: 0.087648675}
-      - {x: -0.7849009, y: 0.11509912}
+      - {x: 0.20856881, y: 0.056185827}
+      - {x: -0.035946846, y: 0.06882225}
+      - {x: -0.12336993, y: 0.0679584}
+      - {x: -0.67168117, y: 0.085563585}
       - {x: -1.4021533, y: 0.09274785}
       - {x: -1.4923637, y: 0.07472794}
       - {x: -1.65, y: 0.08}
-      - {x: -1.67, y: 0.13}
-      - {x: -1.8805442, y: 0.12827365}
+      - {x: -1.6798446, y: 0.10046439}
+      - {x: -1.8854668, y: 0.09381555}
       - {x: -2, y: 0.10118203}
       - {x: -2, y: -0.9}
       - {x: -1.9499999, y: -0.90999997}
@@ -270,7 +270,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 05572b15a2abf412dbd7d2bc1a8196ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -281,7 +281,19 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 118256}
