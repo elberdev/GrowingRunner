@@ -89,8 +89,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj:
   - {fileID: 197370, guid: 59c9a71012ce74739a6391671639f469, type: 2}
-  spawnMin: 1.2
-  spawnMax: 2.4
+  - {fileID: 118256, guid: 2f8b02265c93d493bb4c0a41a795b5ef, type: 2}
+  - {fileID: 142742, guid: 880944b89befc4a9fa7654f9e2ad7a21, type: 2}
+  - {fileID: 175052, guid: 608eb86459c014ed59143d98bb002abe, type: 2}
+  spawnMin: 2
+  spawnMax: 2.5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
